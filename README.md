@@ -65,4 +65,9 @@ app = FastAPI()
 @app.get('/')
 async def main():
     return {"message":"Hello World"}
-```
+
+http://127.0.0.1:8000/hello/김태경?action="전진"&sound="붕붕"
+
+templates/hello.html 다음과 같이 수정함
+
+
